@@ -7,6 +7,7 @@
 
 body * {
 	box-sizing: border-box;
+	border-radius: 10px;
 }
 
 body {
@@ -15,6 +16,26 @@ body {
 	margin: 0;
 	height: 100vh;
 	font-family: var(--main-font-family);
+}
+
+h1 {
+	font-size: var(--main-heading-font);
+}
+
+h2 {
+	width: 150px;
+	border-bottom: 1px solid #aaffcc;
+	border-radius: unset;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-txt-color);
 }
 
 nav {
@@ -30,7 +51,7 @@ nav {
 .nav-content {
 	display: flex;
 	justify-content: space-between;
-	width: 10%;
+	width: 40%;
 }
 
 .nav-title {
@@ -54,10 +75,6 @@ main {
 	height: 100%;
 	width: 80%;
 	margin: 0 auto;
-}
-
-h1 {
-	font-size: var(--main-heading-font);
 }
 
 

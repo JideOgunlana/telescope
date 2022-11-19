@@ -23,18 +23,13 @@
 	color: #FFF189;
 }
 
-ul {
-	list-style: none;
-	padding: 0;
-}
-
 .user-clubs {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-auto-rows: minmax(200px, auto);
+	grid-auto-rows: minmax(300px, auto);
 	/* width: 80%; */
 	align-content: space-between;
-	height: 40vh
+	height: 60vh;
 }
 
 .club {
@@ -60,7 +55,7 @@ ul {
 }
 
 #club02:hover {
-	background-image: url(../../assets/images/img/web_dec_club_color.png);
+	background-image: url(../../assets/images/img/web_dev_club_color.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -76,16 +71,33 @@ h2 {
 	}
 
 	.profile-left {
-		justify-self: center;
+		/* justify-self: center;
 		margin-left: 50%;
 
 		text-align: left;
 		width: 60%;
 		border: 1px solid #000;
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr; */
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
 	}
 
+	.user-img {
+		grid-row:  span 2;
+		text-align: center;
+		align-self: center;
+		justify-self: center;
+	}
+
+	.user-img img {
+		width: 60%;
+	}
+	
+	.user-info, .user-skills {
+		/* margin-left: 20px; */
+	}
 
 	.profile-right h2{
 		margin-left:42px;

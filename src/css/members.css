@@ -1,0 +1,47 @@
+
+.container {
+    height: unset;
+    gap: 50px;
+}
+
+.members-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px
+}
+
+.club-members {
+    /* grid-row: span 2; */
+    /* border: 1px solid; */
+}
+
+.club-members img
+{
+    width: 100%;
+}
+
+.members-intra {
+
+}
+
+.club-title {
+    grid-column: span 2;
+}
+.club-right {
+
+}
+
+.club-logo-img {
+    border: 1px solid;
+    height:400px;
+    background-image: url(../../assets/images/img/app_dev_club_bw.png);
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .container  {
+        display: block;
+    }
+}
