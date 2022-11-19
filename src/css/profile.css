@@ -1,3 +1,8 @@
+
+.nav-content {
+    width: 40%;
+}
+
 .profile-left {
 	/* margin-left: 30%; */
 }
@@ -63,6 +68,18 @@
 h2 {
 	margin-top: 0px;
 }
+
+.link-btn {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.link-btn a {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
 
 @media screen and (max-width: 700px) {
 	.container {
