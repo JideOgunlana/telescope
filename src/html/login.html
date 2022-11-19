@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/base_styles.css">
+	<link rel="stylesheet" href="../css/login.css">
+	<title>Welcome to Telescope</title>
+</head>
+<body>
+	<nav>
+		<div class="nav-content">
+			<div class="nav-title">TELESCOPE</div>
+			<div class="nav-logo">
+				<a href="#"><img src="../../assets/images/telescope_logo.png" alt="" ></a>
+			</div>
+		</div>
+	</nav>
+	<main>
+		<div class="container">
+			<div class="login-left">
+				<form>
+					<!-- <img class="mb-4" src="https://www.42heilbronn.de/files/icons/logo.svg" alt="" width="200" height="200"> -->
+					<h1> <strong> Please sign in with your intra Account</strong></h1>
+				
+					<div class="checkbox mb-3">
+					</div>
+					<button class="btn btn-primary" type="submit" id="btn" onclick="window.location.href='https://api.intra.42.fr/oauth/authorize?client_id=d13782daa2cada4c6e5ebe7b7e4e65866d2ed68000141f158cdd7f7f21858bdd&redirect_uri=https%3A%2F%2Foauth.pstmn.io%2Fv1%2Fbrowser-callback&response_type=code'">
+				<img style="width:30px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/2048px-42_Logo.svg.png"> Sign in with Your intra </button>
+					<p class="mt-5 mb-3 text-muted">42 TELESCOPE &copy; 2022</p>
+				  </form>
+			</div>
+			<div class="login-right">
+				<img src="../../assets/images/logo_with_text.png" alt="">
+			</div>
+		</div>
+	</main>
+	<footer>
+
+	</footer>
+</body>
+</html>

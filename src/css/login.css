@@ -1,0 +1,29 @@
+
+
+.login-right, .login-left {
+	align-self: center;
+	justify-content: center;
+}
+
+.login-right img {
+	width: 60%
+}
+
+
+@media screen and (max-width: 600px) {
+
+	.login-right img {
+		width: 100%
+	}
+	.login-left, .login-right {
+		align-self: unset;
+		justify-content: unset;
+	}
+	.login-left {
+		order: 2;
+	}
+	
+	.login-right  {
+		order: 1;
+	}
+}
