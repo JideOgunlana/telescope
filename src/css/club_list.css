@@ -1,0 +1,52 @@
+
+
+.container {
+    grid-gap: 20px;
+}
+.club-logo-img {
+    border: 1px solid;
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    grid-column: span 2;
+}
+
+#cyber_sec {
+    background-image: url(../../assets/images/img/cyber_security_club_bw.png);
+}
+
+#web_dev {
+    background-image: url(../../assets/images/img/web_dev_club_bw.png);
+}
+
+#app_dev {
+    background-image: url(../../assets/images/img/app_dev_club_bw.png);
+}
+
+#data_science {
+    background-image: url(../../assets/images/img/data_science_club_bw.png);
+}
+
+#robotics {
+    background-image: url(../../assets/images/img/robotics_clubs_bw.png);
+}
+
+#cyber_sec:hover {
+    background-image: url(../../assets/images/img/cyber_security_club_color.png);
+}
+
+#web_dev:hover {
+    background-image: url(../../assets/images/img/web_dev_club_color.png);
+}
+
+#app_dev:hover {
+    background-image: url(../../assets/images/img/app_dev_club_color.png);
+}
+
+#data_science:hover {
+    background-image: url(../../assets/images/img/data_science_club_color.png);
+}
+
+#robotics:hover {
+    background-image: url(../../assets/images/img/robotics_club_color.png);
+}
