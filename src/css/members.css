@@ -9,6 +9,9 @@
 
 .club-left, .club-right {
     padding: 20px;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    row-gap: 40px;
 }
 
 .members-list {
@@ -91,7 +94,7 @@
 
 .club-logo-img {
     border: 1px solid;
-    height:400px;
+    /* height:400px; */
     background-image: url(../../assets/images/img/app_dev_club_bw.png);
     background-size: cover;
     /* margin-bottom: 100px; */
@@ -119,6 +122,7 @@ ol li {
     padding: 5px;
     margin-top: 10px;
     border-radius: 3px;
+    text-align: center;
 }
 
 @media screen and (max-width: 720px) {
