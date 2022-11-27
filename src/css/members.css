@@ -4,7 +4,7 @@
 }
 .container {
     height: unset;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 .club-left, .club-right {
@@ -93,13 +93,7 @@
 }
 
 .club-logo-img {
-    border: 1px solid;
-    /* height:400px; */
     background-image: url(../../assets/images/img/app_dev_club_bw.png);
-    background-size: cover;
-    /* margin-bottom: 100px; */
-    background-position: center;
-    cursor: pointer;
 }
 
 .club-logo-img:hover {

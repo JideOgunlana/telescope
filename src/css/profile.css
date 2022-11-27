@@ -3,8 +3,20 @@
     width: 40%;
 }
 
+.container {
+    height: unset;
+    /* gap: 50px; */
+}
+
 .profile-left {
 	/* margin-left: 30%; */
+	display: grid;
+	justify-items: center;
+	grid-auto-rows: min-content;
+}
+
+.user-img {
+	text-align: center;
 }
 
 .user-img img{
@@ -35,12 +47,6 @@
 	/* width: 80%; */
 	align-content: space-between;
 	height: 60vh;
-}
-
-.club {
-	/* border: 1px solid red; */
-    background-position: center;
-
 }
 
 #club01 {
@@ -104,11 +110,23 @@ h2 {
 	.user-info, .user-skills {
 		/* margin-left: 20px; */
 	}
-
+	.profile-right {
+		order: 2;
+	}
 	.profile-right h2{
 	}
 
 	.user-clubs {
 		margin: 0 auto;
+	}
+
+	.empty {
+		/* visibility: hidden;
+		 */
+		display: none;
+	}
+
+	.user-clubs-title {
+		order: 1
 	}
 }
